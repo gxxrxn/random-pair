@@ -1,0 +1,136 @@
+body {
+  font-family: 'Pretendard', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 2%;
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+input {
+  font-size: 16px;
+  width: 360px;
+  height: 36px;
+  border: 1px solid #B4B4B4;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #8B8B8B;
+}
+
+button {
+  border-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background: #00BCD4;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #80DEEA;
+}
+
+#app {
+  min-width: 500px;
+  width: 550px;
+  height: fit-content;
+  min-height: 200px;
+  background-color: #ffffff;
+  padding: 10px 40px;
+}
+
+#app .title {
+  text-align: center;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app button#generate {
+  width: 100px;
+  height: 38px;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+#member-input-form {
+  margin-bottom: 30px;
+}
+
+#member-input-form label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+#member-input-form button#submit {
+  width: 100px;
+  height: 38px;
+  padding: 10px;
+}
+
+#members ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px 10px;
+}
+
+#members ul li {
+  width: 90px;
+  background: #F5F5F5;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+}
+
+#pairs ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px 25px;
+}
+
+#pair {
+  display: inline-flex;
+  gap: 10px 10px;
+  align-items: center;
+}
+
+#pair li {
+  width: 90px;
+  background: #F5F5F5;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-break: break-word;
+}

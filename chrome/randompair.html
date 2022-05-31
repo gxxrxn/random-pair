@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>👩🏻 랜덤 pair 생성기 💻</title>
+</head>
+
+<body>
+  <div id="app">
+    <h4 class="title">👩🏻 랜덤 pair 생성기 💻</h4>
+    <form id="member-input-form">
+      <label>이름을 입력해주세요.</label>
+      <input type="text" id="member-input" placeholder="이름" autocomplete="off" />
+      <button id="submit">추가</button>
+    </form>
+    <div id="members">
+      <p id="member-description">총 0명이 페어 프로그래밍에 참여합니다.</p>
+      <ul id="member-list"></ul>
+    </div>
+    <div class="flex-box">
+      <button id="generate">생성하기</button>
+    </div>
+    <div id="pairs">
+      <ul id="pair-list"></ul>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
