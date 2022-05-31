@@ -6,4 +6,4 @@
 
 ## 🔍 미리보기
 
-<img width="80%" src="./chrome/img/랜덤pair생성기_미리보기.gif" />
+<img width="100%" src="./chrome/img/랜덤pair생성기_미리보기.gif" />
