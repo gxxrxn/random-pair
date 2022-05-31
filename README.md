@@ -6,6 +6,4 @@
 
 ## 🔍 미리보기
 
-![1](./chrome/img/%EC%BA%A1%EC%B3%901.png)
-![2](./chrome/img/%EC%BA%A1%EC%B3%902.png)
-![3](./chrome/img/%EC%BA%A1%EC%B3%903.png)
+<img width="80%" src="./chrome/img/랜덤pair생성기_미리보기.gif" />
